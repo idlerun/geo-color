@@ -1,0 +1,45 @@
+{
+  "name": "geo-color",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "prettier": {
+    "importOrder": [
+      "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fontsource/roboto": "^4.5.7",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.4",
+    "@netlify/functions": "^1.0.0",
+    "@svg-maps/usa.counties": "^1.1.2",
+    "colorjs.io": "^0.0.7",
+    "next": "^12.1.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.52.3"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "@types/node": "^18",
+    "@types/react": "^18.0.14",
+    "dotenv-cli": "^5.1.0",
+    "netlify-cli": "^10.5.1",
+    "prettier": "^2.7.1",
+    "sort-package-json": "^1.57.0",
+    "typescript": "^4.7.3"
+  }
+}
